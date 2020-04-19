@@ -16,14 +16,9 @@ def speak(audio_string):
 
 
 def execute(audio):
-    if 'hello' in audio or len(audio) ==len('jarvis'):
-        speak('Hello,  how may  i help you')
     if 'play' in audio:
         speak('sure baby')
         play_video_on_youtube(audio)
-        #pid = multiprocessing.Process(target=play_video_on_youtube, args=(self.mAudio,))
-        #pid.start()
-        #pid.join()
 
 
 
