@@ -1,23 +1,27 @@
 "This module will speak"
-import os
-import time
-import playsound
-from gtts import gTTS
-import multiprocessing
-
+import pyttsx3
 from Task.youtubeplayer import play_video_on_youtube
 
 
 def speak(audio_string):
-        gtts = gTTS(text=audio_string, lang='en')
-        filename = 'say.mp3'
-        gtts.save(filename)
-        os.system(f'mpg123 {filename}')
+        engine = pyttsx3.init()
+        voices = engine.getProperty('voices')
+        """for voices in voices:
+            print(voices)"""
+        engine.setProperty('rate', 180)
+        engine.setProperty('voice', 'com.apple.speech.synthesis.voice.karen')
+        engine.say(audio_string)
+        engine.runAndWait()
+
+# com.apple.speech.synthesis.voice.samantha - another good voice which we can use
 
 
 def execute(audio):
     if 'play' in audio:
-        speak('sure baby')
+        with open('youtubespeech.txt') as f:
+            lines=f.read().splitlines()
+        import  random
+        speak(random.choice(lines))
         play_video_on_youtube(audio)
 
 

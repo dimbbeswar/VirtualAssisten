@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e543eca-4abe-4734-8753-658101ae96b5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/ReadNews.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/wikipediaSearch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task/wikispeech.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spech.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spech1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/speech3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youtubespeech.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Recognize_voice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Recognize_voice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GURU.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Task/youtubeplayer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task/youtubeplayer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/say.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/say.mp3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/speak.py" beforeDir="false" afterPath="$PROJECT_DIR$/speak.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
